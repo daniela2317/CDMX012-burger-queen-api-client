@@ -1,0 +1,20 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+button {
+  color: #000000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: larger;
+  background-color: #F7B538;
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  width: 9em;
+}
+
+.menu {
+  height: 30%;
+  mix-blend-mode: lighten;
+  color: black;
+}
+
+}

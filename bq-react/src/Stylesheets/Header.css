@@ -1,18 +1,27 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
 div {
-	margin: 0%;
-	height: 2em;
+	margin: 0;
+	height: 3em;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	background-color: #F7B538;
-	justify-content: space-around;
+	justify-content: center;
+	font-size: x-large;
 }
 
 .hamburger {
-  width: 3em;
-	height: 2em;
+  width: 4em;
+  height: 3em;
+  mix-blend-mode: darken; 
 }
 
  header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: larger;
 	color: #D91E36;
  }
+}

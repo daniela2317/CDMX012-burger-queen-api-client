@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+input {
+  display: flex;
+  position:relative;
+  flex-direction: column;
+  width: 15em;
+  height: 4em;
+  /* background-color: #767522; */
+  mix-blend-mode: screen;
+  color:black;
+  margin-top: 6em;
+}
+
+}

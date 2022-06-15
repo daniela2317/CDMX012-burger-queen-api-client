@@ -20,5 +20,8 @@
   "homepage": "https://github.com/daniela2317/CDMX012-burger-queen-api-client#readme",
   "devDependencies": {
     "json-server": "^0.17.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }

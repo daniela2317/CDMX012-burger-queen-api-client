@@ -13,8 +13,26 @@ button {
 
 .menu {
   height: 30%;
-  mix-blend-mode: lighten;
+  width: 50%;
+  /*mix-blend-mode: screen;*/
   color: black;
+  background-color: #767522;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  grid-template-rows: minmax(200px, auto);
+  grid-gap: 100px;
+  margin: 2em;
+  /*flex-wrap: wrap;*/
 }
+
+.product-menu {
+  flex-direction: column;
+}
+
+/*img {
+  height: 7%;
+  width: 7%;
+}*/
 
 }

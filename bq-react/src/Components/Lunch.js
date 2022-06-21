@@ -1,12 +1,12 @@
 import '../Stylesheets/Menus.css';
-import { getProducts } from './APICalls';
+import { getProductsMeal } from './APICalls';
 import { useState, useEffect} from 'react';
 
 const Lunch = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        getProducts().then(setProducts);
+        getProductsMeal().then(setProducts);
     }, []);
 
     return (
